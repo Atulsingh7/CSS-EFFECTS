@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+   background-color:BLACK;
+}
+ul{
+    list-style: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+ul li{
+    letter-spacing: 40px;
+    font-size: 6.2rem;
+    color: gray;
+    animation-name:animate;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+}
+@keyframes animate{
+    0%{
+        color: gray;
+        text-shadow: none;
+    }
+    12%{
+        color: yellow;
+        text-shadow: 0 0 20px;
+    }
+    28%{
+        color: gray;
+        text-shadow: none;
+    }
+    32%{
+        color: yellow;
+        text-shadow: 0 0 20px;
+    }
+    44%{
+        color: gray;
+        text-shadow: none;
+    }
+    55%{
+        color: yellow;
+        text-shadow: 0 0 20px;
+    }
+    63%{
+        color: gray;
+        text-shadow: none;
+    }
+    77%{
+        color: yellow;
+        text-shadow: 0 0 20px;
+    }
+    82%{
+        color: gray;
+        text-shadow: none;
+    }
+    95%{
+        color: yellow;
+        text-shadow: 0 0 18px;
+    }
+}
+ul li:nth-child(1)
+{
+    animation-delay: .2s;
+}ul li:nth-child(2)
+{
+    animation-delay: .4s;
+}ul li:nth-child(3)
+{
+    animation-delay: .6s;
+}ul li:nth-child(4)
+{
+    animation-delay: .8s;
+}ul li:nth-child(5)
+{
+    animation-delay: 1s;
+}ul li:nth-child(6)
+{
+    animation-delay: 1.2s;
+}ul li:nth-child(7)
+{
+    animation-delay: 1.4s;
+}ul li:nth-child(8)
+{
+    animation-delay: 1.6s;
+}ul li:nth-child(9)
+{
+    animation-delay: 1.8s;
+}
